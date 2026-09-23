@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Boutique - ELLA</title><link rel="stylesheet" href="assets/style.css"></head>
+<body>
+<header><a href="index.html" class="logo">ELLA.</a><nav><a href="index.html">Accueil</a><a href="boutique.html" class="active">Boutique</a><a href="a-propos.html">À propos</a><a href="contact.html">Contact</a></nav><div class="header-actions"><input type="search" id="search" placeholder="Rechercher..."><a href="#" class="cart">Panier <span id="cart-count">0</span></a></div></header>
+<div class="container shop-layout">
+  <aside class="filters"><h3>Filtres</h3><button class="filter-btn active" data-cat="all">Tous</button><button class="filter-btn" data-cat="femme">Femme</button><button class="filter-btn" data-cat="homme">Homme</button><button class="filter-btn" data-cat="accessoire">Accessoires</button><hr><label>Prix max: <span id="prix-val">200</span> DT</label><input type="range" id="prix-range" min="20" max="200" value="200"></aside>
+  <main><div id="product-grid" class="grid"></div></main>
+</div>
+<footer><p>© 2026 ELLA Boutique</p></footer>
+<script src="assets/script.js"></script>
+</body>
+</html>
